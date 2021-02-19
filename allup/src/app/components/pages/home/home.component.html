@@ -1,21 +1,21 @@
-<div class="container justify-content-center">
-  <div class="row">
-
-      <mat-card class="post-card p-5 m-2 col" *ngFor="let post of posts">
-        <mat-card-header>
-          <mat-card-title>
             <a [routerLink]="['/post', post.id]">
-              {{ post.titlePost }}
-            </a>
-          </mat-card-title>
-        </mat-card-header>
-        <img matCardImage [src]="post.imagePost" class="img-fluid"/>
-        <mat-card-content>
-          <p>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-4 g-3">
+    <div class="col" *ngFor="let post of posts">
+      <div class="card mt-4">
+        <img [src]="post.imagePost" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <a
+          class="card-title h4 text-decoration-none text-primary"
+            [routerLink]="['/post', post.id]"
+          >
+            {{ post.titlePost }}
+          </a>
+          <p class="card-text pt-2">
             {{ post.contentPost }}
           </p>
-        </mat-card-content>
-      </mat-card>
-
+        </div>
+      </div>
+    </div>
   </div>
 </div>

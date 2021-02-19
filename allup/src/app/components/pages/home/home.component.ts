@@ -27,6 +27,16 @@ export class HomeComponent implements OnInit {
       titlePost: 'Post Three',
       contentPost: 'Hola Luis ¿cómo estás?',
       imagePost: 'https://i.picsum.photos/id/227/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U'
+    },{
+      id:'4',
+      titlePost: 'Post Four',
+      contentPost: 'Hola Luis ¿cómo estás?',
+      imagePost: 'https://i.picsum.photos/id/227/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U'
+    },{
+      id:'5',
+      titlePost: 'Post Five',
+      contentPost: 'Hola Luis ¿cómo estás?',
+      imagePost: 'https://i.picsum.photos/id/227/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U'
     }
   ];
 
