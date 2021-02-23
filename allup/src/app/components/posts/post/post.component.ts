@@ -23,7 +23,6 @@ export class PostComponent implements OnInit {
 
   ngOnInit(){
     this.post.id = this.route.snapshot.params.id;
-    
   }
 
 }
