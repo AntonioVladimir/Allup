@@ -5,4 +5,5 @@ export interface PostI{
     imagePost?: string;
     tagPost: string;
     fileRef?:string;
+    tagsPost: string;
 }
